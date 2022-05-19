@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script >
+
+    let arr1 = [1, 2, 3, 4, 5]
+    let arr2 = [-1, 0, ...arr1]
+    arr1 = [2,3,4]
+    console.log('>>>> check data arr1: ', arr2)
+    console.log('>>> check arr1: ', arr1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // const callback = (error, data) => {
+    //    if(error) {
+    //        console.log('>>> calling callback with error: ', error)
+    //    }
+    //    if(data) {
+    //         console.log('calling callback with data', data)
+    //    }
+    // }
+   
+
+    // function getToDos(id) {
+    //     return new Promise((resolve, reject) => {
+    //         var request = new XMLHttpRequest()
+        
+    //         request.onreadystatechange = function () {
+    //             if(this.readyState === 3 && request.status === 200) {
+    //                 const data = JSON.parse(request.responseText)
+    //                 const dataString = JSON.stringify(data)
+    //                 resolve(dataString)
+    //             }
+
+    //             if(this.readyState === 3 && request.status !== 200) {
+    //                 reject("something wrongs")
+    //             }
+                
+    //         }
+
+    //         request.open("GET", `https://jsonplaceholder.typicode.com/todos/${id}`, true);
+        
+    //         request.send();
+    //     })
+    // }   
+
+    // fetch('https://jsonplaceholder.typicode.com/todos/1')
+    // .then( cc =>  {
+ 
+    //      return cc.json()
+    // })
+    // .then(data1 => {
+    //     console.log('>>>> fetch data: ', data1)
+    // })
+
+    // const getToDos = async (id) => {
+    //     try {
+    //          let response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
+
+    //         if(response && response.status !== 200) {
+    //             throw new Error('Something wrongs with status code ' +  response.status)
+    //         }
+    //         let data = await response.json()
+    //         return data
+    //     } catch (error) {
+            
+    //     }
+       
+    // }
+    
+    // getToDos(12312312312)
+    // .then(data => console.log(data))
+    // .catch(err => console.log('>>> check error', err.message))
+  
+
+</script>
+<body>
+    <h1> xin chao the gioi</h1>
+
+</body>
+</html>
