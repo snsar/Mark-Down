@@ -31,7 +31,7 @@ My [github profile](https://github.com/snsar)  use ( ) and [ ]
 
 ___
 
-# [Section links](youtube.com)
+# [Section links](https://www.youtube.com)
 
 > You can link directly to a section in a rendered file by hovering over the section heading to expose the link:
 
